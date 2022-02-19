@@ -114,3 +114,77 @@ header .lower-text .bottom{
     text-align: center;
     margin-bottom: 15px;
 }
+/* instagram shot part start  */
+.insta-shot{
+    height: 590px;
+    background-color: #2c2c2c;
+    padding-top: 50px;
+    width: 100%;
+}
+.insta-shot .top{
+    position: relative;
+    font-size: 18pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #d5d5d5;
+    text-transform: uppercase;
+}
+.insta-shot .top::after{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    top: 18px;
+    left: 430px;
+    background-color: #d5d5d5;
+}
+
+.insta-shot .top::before{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    top: 18px;
+    right: 430px;
+    background-color: #d5d5d5;
+}
+.insta-shot .picture .row{
+    width: 100%;
+    margin: 0;
+    margin-top: 40px;
+    
+}
+.insta-shot .picture{
+    width: 100%;
+    
+}
+.insta-shot .picture img{
+    width: 100%;
+}
+.insta-shot .picture .col-3{
+    padding: 0;
+    box-sizing: border-box;
+}
+.insta-shot .picture .col-3 img{
+    width: 100%;
+}
+.insta-shot .text-box{
+    color: #a6a6a6;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14pt;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+.insta-shot .text-box .page-btn{
+    border: 1px solid #a6a6a6;
+    display: inline;
+    padding: 15px;
+    
+}
+/* journal part star ? */
+.journal{
+    width: 100%;
+    height: 1050px;
+    background-color: #f9f9f9;
+}
