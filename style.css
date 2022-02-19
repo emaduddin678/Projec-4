@@ -188,3 +188,115 @@ header .lower-text .bottom{
     height: 1050px;
     background-color: #f9f9f9;
 }
+.journal .top-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    padding-top: 75px;
+}
+.journal .line{
+    text-align: center;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+}
+.journal .line::after{
+    content: " ";
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background-color: #444444;
+    top: 89px;
+    left: 320px;
+}
+.journal .line::before{
+    content: " ";
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background-color: #444444;
+    top: 89px;
+    left: 680px;
+}
+/* jouranl cards part star  */
+.journal .journal-cards{
+    margin-bottom: 80px;
+}
+.journal .journal-cards .card .text{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: center;
+}
+.journal .journal-cards .card .text .card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+.journal .journal-cards .card .text .card-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    
+}
+/* .journal last part start  */
+.journal .journal-last-part h3{
+    font-size: 16pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444444;
+    position: relative;
+}
+.journal .journal-last-part h3::after{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: #444444;
+    top: 12px;
+    right: 250px;
+    opacity: 0.6;
+}
+.journal .journal-last-part img{
+    width: 100%;
+    height: auto;
+}
+.journal .journal-last-part .col-7 p{
+    font-weight: lighter;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14pt;
+    margin-bottom: 0%;
+}
+.journal .journal-last-part .col-7 .low{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}
+/* Right part star  */
+.journal .journal-last-part #right-line{
+    font-size: 16pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444444;
+    position: relative;
+}
+.journal .journal-last-part #right-line::after{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: #444444;
+    top: 12px;
+    right: 308px;
+    opacity: 0.6;
+}
+#service .row .col-12 .row .col-2{
+    color: #28b8d8;
+    
+    font-size: 40px;
+}
+#service .row .col-12 .row .col-10 h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 17pt;
+}
