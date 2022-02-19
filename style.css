@@ -236,7 +236,13 @@ header .lower-text .bottom{
 .journal .journal-cards .card .text .card-subtitle{
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
-    
+}
+.journal .journal-cards .card a{
+    color: #b3b3b3;
+    text-transform: uppercase;
+    font-size: 11pt;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: 2px solid #28B8D8 underline;
 }
 /* .journal last part start  */
 .journal .journal-last-part h3{
@@ -303,10 +309,10 @@ header .lower-text .bottom{
 /* contact part star here  */
 .contact{
     width: 100%;
-    height: 380px;
+    height: 400px;
     background-color: #373737;
-    padding-top: 70px;
-    color: #f0f0f0;
+    padding-top: 70px; 
+    color: #b3b3b3;
 }
 .contact .heading{
     font-family: 'Roboto Condensed', sans-serif;
@@ -319,5 +325,25 @@ header .lower-text .bottom{
     font-family: 'Roboto', sans-serif;
     font-size: 11pt;
     margin-top: 20px;
-    text-align: justify;
+    text-align:left;
+}
+.contact h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    color: #a5a5a5;
+    margin-bottom: 0%;
+}
+.mb{
+    margin-bottom: 0%;
+    font-size: 11pt;
+    font-family: 'Roboto', sans-serif;
+}
+/* footer part start  */
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #333333;
+    color: #b3b3b3;
+    display: flex;
+    align-items: center;
 }
