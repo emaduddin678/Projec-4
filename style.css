@@ -1,6 +1,19 @@
 *{
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    box-sizing: border-box;
+}
+head{
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
 }
 header{
     background: url('images/banner.png');
@@ -21,6 +34,7 @@ header{
     top: 0%;
     left: 0%;
     background: rgba(0, 0, 0, .3);
+    display: flex;
 }
 .navbar .navbar-brand{
     font-size: 27px;
@@ -227,6 +241,7 @@ header .lower-text .bottom{
     align-items: center;
     height: 90px;
     justify-content: center;
+    flex-direction: column;
 }
 .journal .journal-cards .card .text .card-title{
     font-family: 'Roboto Slab', serif;
@@ -351,3 +366,42 @@ footer p{
     line-height: 90px;
     margin-bottom: 0;
 }
+
+/* Complete project as normal */
+
+/* 
+/* Start Responsiv part ? */
+
+/* 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */ 
+
+
+/* For mobile phones: */
+ @media (max-width: 785px) {
+    .navbar .navbar-nav{
+        position: fixed;
+        width: 100%;
+        z-index: -1;
+        background: rgba(0, 0, 0, .3);
+        top: 90px;
+        left: 0;
+    }
+    .navbar .navbar-nav .nav-item{
+        display: block;
+        text-align: center;
+        line-height: 80px;
+        
+    }
+ }
+ 
